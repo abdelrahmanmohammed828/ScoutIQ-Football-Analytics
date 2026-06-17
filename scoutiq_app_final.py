@@ -137,7 +137,7 @@ with st.sidebar:
 # ════════════════ HOME ════════════════
 if page == "Home":
     st.markdown("<h1 style='font-size:3.5rem;margin-bottom:0;'>SCOUTIQ</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='color:#8B9DC3;font-size:1.1rem;margin-top:0;margin-bottom:2rem;'>Find the Next Mo Salah. Before the Market Does.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='color:#8B9DC3;font-size:1.1rem;margin-top:0;margin-bottom:2rem;'>Find The Next MO & KDB Before Market Do.</p>", unsafe_allow_html=True)
 
     c1,c2,c3,c4,c5 = st.columns(5)
     salah_rows = master[master['Benchmark']=='Mo Salah']
