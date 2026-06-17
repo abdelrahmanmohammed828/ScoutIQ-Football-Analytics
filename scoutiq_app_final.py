@@ -102,7 +102,7 @@ with st.sidebar:
     with col_b:
         st.image("scoutiq_logo.png", use_container_width=True)
     st.markdown("""<div style='text-align:center;padding:0.5rem 0 1rem 0;'>
-        <div style='color:#8B9DC3;font-size:0.75rem;letter-spacing:2px;text-transform:uppercase;'>Your next star is just a click away</div>
+        <div style='color:#8B9DC3;font-size:0.75rem;letter-spacing:2px;text-transform:uppercase;'>Your next star is just a click away ⭐</div>
     </div>""", unsafe_allow_html=True)
     st.divider()
     page = option_menu(
